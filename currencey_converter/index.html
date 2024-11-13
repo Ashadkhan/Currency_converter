@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Conveter</title>
+    <link rel="stylesheet" href="project1.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="currency.jpg">
+    <script src="codes.js"></script>
+  </head>
+  <body>
+    <div class="contaner">
+      <h2>Currency Conveter</h2>
+      <form action="#" method="get">
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" name="Ammount" id="val" value="1" />
+        </div>
+        <div class="dropdown">
+          <div class="from">
+            <p>FROM</p>
+            <div class="select_contaner">
+              <img src="https://flagsapi.com/US/flat/64.png" alt="" class="flag" />
+              <select name="from" id="from_currency"></select>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          <div class="to">
+            <p>TO</p>
+            <div class="select_contaner">
+              <img src="https://flagsapi.com/IN/flat/64.png" alt="" class="flag"/>
+              <select name="to" id=""></select>
+            </div>
+          </div>
+        </div>
+        <div class="msg"></div>
+        <button id="btn">Get exchange rate</button>
+      </form>
+    </div>
+    <script src="project1.js"></script>
+    
+  </body>
+</html>
